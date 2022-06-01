@@ -139,10 +139,12 @@ img {
   margin-left: auto;
 }
 
+
+
 .header-email,
 .header-tel {
   padding: 32px 0;
-  display: block;
+  display: flex;
 
   color: var(--text-color);
   font-weight: 500;
