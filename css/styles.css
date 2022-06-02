@@ -387,20 +387,24 @@ img {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  
-}
-
-
-.team-soc-icon {
-  fill: var(--icon-color);
+  justify-content: center;  
 }
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: var(--accent-color);
-  color: #FFFFFF;
+  background-color:var(--accent-color);
 }
+
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
+  fill: var(--main-bgd-color);
+}
+
+
+
+
+
+
 
 /* < !-- -------Постояннные клиенты------- --> */
 .customers {
